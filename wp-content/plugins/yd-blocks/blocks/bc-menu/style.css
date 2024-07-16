@@ -1,0 +1,13 @@
+.footer-menu {
+  margin-top: 1rem;
+  padding-left: 0;
+  font-size: var(--wp--preset--font-size--small);
+}
+.footer-menu li {
+  list-style: none;
+  margin-bottom: 9px;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: var(--wp--preset--color--white);
+}

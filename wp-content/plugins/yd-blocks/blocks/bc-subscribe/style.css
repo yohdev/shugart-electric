@@ -1,0 +1,25 @@
+#subscribe {
+  max-width: 100%;
+}
+#subscribe input {
+  font-family: var(--wp--preset--font-family--playfair);
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-bottom: var(--wp--custom--spacing--24);
+  border: solid 2px var(--wp--preset--color--burrows-light-gray);
+  font-size: var(--wp--preset--font-size--small);
+}
+
+#subscribe input[type="email"] {
+  width: 100%;
+}
+#subscribe input[type="email"]::placeholder {
+  font-family: var(--wp--preset--font-family--playfair);
+}
+#subscribe input[type="submit"] {
+  border: none;
+  background-color: var(--wp--preset--color--black);
+  color: var(--wp--preset--color--white);
+  padding: 10px 68px;
+}

@@ -1,0 +1,42 @@
+<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group">
+  <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"burrows-landing-hero","tagName":"main","style":{"spacing":{}}}} -->
+<div class="wp-block-group burrows-landing-hero">
+  <!-- wp:post-featured-image {"aspectRatio":"16/9","style":{spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} /-->
+
+  <!-- wp:group {"className":"overlay-text"} -->
+  <div class="wp-block-group overlay-text">
+    <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--35)","bottom":"var(--wp--custom--spacing--35)","left":"var(--wp--custom--spacing--35)","right":"var(--wp--custom--spacing--35)"}}}} -->
+    <div
+      class="wp-block-group alignwide burrows-landing-container"
+      style="
+        padding-top: var(--wp--custom--spacing--35);
+        padding-bottom: var(--wp--custom--spacing--35);
+        padding-left: var(--wp--custom--spacing--35);
+        padding-right: var(--wp--custom--spacing--35);
+      "
+    >
+      <!-- wp:group {"className":"burrows-landing-text"} -->
+      <div class="wp-block-group burrows-landing-text">
+        <!-- wp:heading {"level":1} -->
+        <h1 class="wp-block-heading">Leading the Way in Investment Strategy</h1>
+        <!-- /wp:heading -->
+        <!-- wp:acf/bc-bcis-weekly {} /-->
+      </div>
+      <!-- /wp:group -->
+      <!-- wp:group {"className":"burrows-landing-carousel"} -->
+      <div class="wp-block-group burrows-landing-carousel">
+        <!-- wp:acf/bc-carousel {} /-->
+      </div>
+      <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+  </div>
+  <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
